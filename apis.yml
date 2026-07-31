@@ -1,7 +1,27 @@
 aid: nabfly
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nabfly.png
 name: nabfly
-description: nabfly is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'nabfly, Inc., doing business as Bespoke Post, is a New York City-based
+  direct-to-consumer e-commerce and subscription retailer founded in 2011 and backed
+  by 500 Global. It sells rugged-meets-refined menswear and lifestyle gear, designing
+  its own brands (including Line of Trade, Fieldworth, Halfday, Wren, Ash and Fir,
+  and Marcellin) and curating products from small independent makers. Alongside a
+  standard online store, it runs an optional membership offering member pricing, early
+  access, and curated monthly boxes. The company operates as a consumer retail brand
+  at bespokepost.com and does not publish a public developer API, SDK, or developer
+  portal; this profile captures its identity, public web properties, and domain-security
+  posture.'
 url: https://raw.githubusercontent.com/api-evangelist/nabfly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Ecommerce
+- Retail
+- Subscription
+- Consumer
+- Direct-to-Consumer
+- Menswear
+- Lifestyle
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 common:
 - type: Website
-  url: https://bespokepost.com
+  url: https://www.bespokepost.com
+- type: Support
+  url: https://support.bespokepost.com
+- type: Blog
+  url: https://www.bespokepost.com/field-guide
+- type: PrivacyPolicy
+  url: https://www.bespokepost.com/privacy
+- type: TermsOfService
+  url: https://www.bespokepost.com/terms
+- type: DomainSecurity
+  url: security/nabfly-domain-security.yml
